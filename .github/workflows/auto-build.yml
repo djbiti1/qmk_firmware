@@ -1,12 +1,6 @@
-name: Compile Firmware
+name: Compile Firmware_OD
 
-on:
-  push:
-    branches:
-    - sn32_master
-  pull_request:
-    branches:
-    - sn32_master
+on: workflow_dispatch
 
 jobs:
   Build:
