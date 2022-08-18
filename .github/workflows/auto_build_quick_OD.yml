@@ -1,7 +1,6 @@
-name: Compile Firmware (quick)
+name: Compile Firmware (quick)_OD
 
 on: workflow_dispatch
-
 
 jobs:
   Build:
